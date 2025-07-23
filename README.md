@@ -1,4 +1,4 @@
-# 📖 Project Name: Library Management API
+# 📖 Project Name: Library Explorer Backend
 
 ## 🎯 Objective
 
