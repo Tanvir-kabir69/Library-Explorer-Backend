@@ -18,7 +18,7 @@ const getAllBooksFromDB = async (queryData: any) => {
 
   const allBooksData = await BookModel.find(filter)
     .sort({ [sortBy]: sort })
-    .limit(limit);
+    // .limit(limit);
   return allBooksData;
 };
 

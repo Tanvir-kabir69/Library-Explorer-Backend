@@ -3,9 +3,11 @@ import router from './app/routes'
 import globalErrorHandler from './app/utils/globalErrorHandler';
 import getAController from './app/utils/getAController';
 import notFountRoute from './app/utils/notFoundRoute';
+import cors from 'cors'
 
 const app : Application = express()
 
+app.use(cors())
 app.use(express.json());
 
 const baseApi : string = '/api'

@@ -39,7 +39,7 @@ const getBorrowedBooksSummaryFromDB = async () => {
         totalQuantity: 1,
       },
     },
-  ]);
+  ]).sort({totalQuantity: -1});
 
   return summary;
 };
